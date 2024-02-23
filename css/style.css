@@ -111,14 +111,47 @@ h5 {
     text-align: center;
 }
 
-/* Section & Paragraph */
+section {
+    margin-top: 0.5rem; /* Equivalent to 8px */
+}
+
+p {
+    margin-top: 1rem; /* Equivalent to 16px */
+    margin-bottom: 1rem; /* Equivalent to 16px */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1rem; /* Equivalent to 16px */
+    padding-right: 1rem; /* Equivalent to 16px */
+    width: 90%;
+    text-align: left;
+}
+
+
+figure {
+    margin-bottom: 2rem; /* Equivalent to 32px */
+}
+
+img {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem; /* Equivalent to 800px */
+}
+
+figcaption {
+    padding-top: 0.5rem; /* Equivalent to 8px */
+    text-align: right;
+}
 
 
 
-/* Image & Figure */
-
-
-
-/* Footer */
+footer {
+    padding: 1rem; /* Equivalent to 16px */
+    border-top: 1rem solid #333; /* Equivalent to 32px */
+}
 
 
