@@ -56,42 +56,45 @@ main {
 
 h1, h2, h3, h4 {
     text-transform: uppercase;
-    color: darkred;
-    font-family: 'Alfa Slab One', Garamond, serif;
     margin: 0;
     text-align: center;
+    font-family: 'Alfa Slab One', Garamond, serif;
 }
 
 h1 {
-    font-size: 4rem;
-    letter-spacing: 0.2rem;
-    text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+    color: darkred;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
 }
 
 h2 {
     font-size: 3rem;
     letter-spacing: 0.4rem;
+    color: darkred;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
     font-weight: normal;
 }
 
 h3 {
     font-size: 2rem;
+    letter-spacing: 0.5rem;
     color: black;
     font-weight: normal;
-    text-shadow: none;
 }
 
 h4 {
     font-size: 1.5rem;
     letter-spacing: 0.4rem;
-    padding-bottom: 1.8rem;
+    color: darkred;
     font-weight: normal;
+    padding-bottom: 1.125rem;
 }
 
 h5 {
     font-size: 1rem;
-    margin-top: 0.4rem;
-    padding: 0.8rem;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
     background-color: #333;
     color: #FFF;
     text-align: center;
@@ -99,33 +102,35 @@ h5 {
 
 /* Section & Paragraph */
 section {
-    margin-top: 1.6rem;
+    margin-top: 0.5rem;
 }
 
 p {
-    margin: 1.6rem auto;
-    padding: 0 1.6rem;
+    margin: 1rem auto;
+    padding: 0 1rem;
     width: 90%;
     text-align: left;
 }
 
-/* Figure, Image, & Footer */
+/* Image & Figure */
 figure {
-    margin-bottom: 3.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
 }
 
 figcaption {
-    padding-top: 0.8rem;
+    padding-top: 0.5rem;
     text-align: right;
 }
 
 img {
     width: 100%;
     margin: 0 auto;
-    max-width: 50rem; /* Adjusted maximum width */
+    max-width: 50rem; /* 800px in rem units */
 }
 
+/* Footer */
 footer {
-    padding: 1.6rem;
+    padding: 1rem;
     border-top: 0.2rem solid #333;
 }
